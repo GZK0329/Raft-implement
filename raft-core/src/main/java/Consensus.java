@@ -26,7 +26,7 @@ public interface Consensus {
     * 参数:
     * 领导者(leader)的任期: term
     * 领导者(leader)的ID: leaderId
-    *
+    * 1
     * */
     AentryResult appendEntry();
 }
